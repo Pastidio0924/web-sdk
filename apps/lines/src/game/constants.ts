@@ -8,92 +8,29 @@ export const REEL_PADDING = 0.53;
 
 // initial board (padded top and bottom)
 export const INITIAL_BOARD: RawSymbol[][] = [
-	[
-		{
-			name: 'L2',
-		},
-		{
-			name: 'L1',
-		},
-		{
-			name: 'L4',
-		},
-		{
-			name: 'H2',
-		},
-		{
-			name: 'L1',
-		},
-	],
-	[
-		{
-			name: 'H1',
-		},
-		{
-			name: 'L5',
-		},
-		{
-			name: 'L2',
-		},
-		{
-			name: 'H3',
-		},
-		{
-			name: 'L4',
-		},
-	],
-	[
-		{
-			name: 'L3',
-		},
-		{
-			name: 'L5',
-		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'H4',
-		},
-		{
-			name: 'L4',
-		},
-	],
-	[
-		{
-			name: 'H4',
-		},
-		{
-			name: 'H3',
-		},
-		{
-			name: 'L4',
-		},
-		{
-			name: 'L5',
-		},
-		{
-			name: 'L1',
-		},
-	],
-	[
-		{
-			name: 'H3',
-		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'H1',
-		},
-		{
-			name: 'H1',
-		},
-	],
+  [
+    { name: 'L2' },   // padding (top)
+    { name: 'H1' },   // visible row 1
+    { name: 'L2' },   // visible row 2
+    { name: 'H3' },   // visible row 3
+    { name: 'L1' },   // padding (bottom)
+  ],
+  [
+    { name: 'H3' },   // padding
+    { name: 'L1' },
+    { name: 'H3' },
+    { name: 'L2' },
+    { name: 'L2' },   // padding
+  ],
+  [
+    { name: 'L1' },   // padding
+    { name: 'H2' },
+    { name: 'H1' },
+    { name: 'L1' },
+    { name: 'H3' },   // padding
+  ],
 ];
+
 
 export const BOARD_DIMENSIONS = { x: INITIAL_BOARD.length, y: INITIAL_BOARD[0].length - 2 };
 
@@ -121,7 +58,7 @@ export const PORTRAIT_MAIN_SIZES = {
 	height: PORTRAIT_HEIGHT,
 };
 
-export const HIGH_SYMBOLS = ['H1', 'H2', 'H3', 'H4', 'H5'];
+export const HIGH_SYMBOLS = ['H1', 'H2', 'H3'];
 
 export const INITIAL_SYMBOL_STATE: SymbolState = 'static';
 
