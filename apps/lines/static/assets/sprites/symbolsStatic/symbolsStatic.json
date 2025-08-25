@@ -11,29 +11,29 @@
 },
 "h1.webp":
 {
-	"frame": {"x":1,"y":1,"w":200,"h":200},
+	"frame": {"x":690,"y":330,"w":330,"h":330},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
-	"sourceSize": {"w":200,"h":200},
+	"spriteSourceSize": {"x":10,"y":0,"w":175,"h":175},
+	"sourceSize": {"w":100,"h":100},
 	"pivot": {"x":0.5,"y":0.5}
 },
 "h2.webp":
 {
-	"frame": {"x":1,"y":203,"w":200,"h":199},
+	"frame": {"x":30,"y":660,"w":300,"h":300},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":199},
-	"sourceSize": {"w":200,"h":200},
+	"sourceSize": {"w":300,"h":300},
 	"pivot": {"x":0.5,"y":0.5}
 },
 "h3.webp":
 {
-	"frame": {"x":1,"y":1185,"w":200,"h":188},
-	"rotated": true,
+	"frame": {"x":350,"y":660,"w":300,"h":300},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":6,"w":200,"h":188},
-	"sourceSize": {"w":200,"h":200},
+	"sourceSize": {"w":300,"h":300},
 	"pivot": {"x":0.5,"y":0.5}
 },
 "h4.webp":
@@ -47,7 +47,7 @@
 },
 "h5.webp":
 {
-	"frame": {"x":1,"y":1455,"w":189,"h":192},
+	"frame": {"x":1,"y":1255,"w":189,"h":192},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":5,"y":4,"w":189,"h":192},
@@ -56,20 +56,20 @@
 },
 "l1.webp":
 {
-	"frame": {"x":203,"y":1,"w":200,"h":175},
-	"rotated": true,
+	"frame": {"x":30,"y":30,"w":300,"h":290},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":20,"w":200,"h":175},
-	"sourceSize": {"w":200,"h":200},
+	"sourceSize": {"w":330,"h":330},
 	"pivot": {"x":0.5,"y":0.5}
 },
 "l2.webp":
 {
-	"frame": {"x":203,"y":945,"w":172,"h":159},
+	"frame": {"x":350,"y":30,"w":310,"h":290},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":14,"y":20,"w":172,"h":159},
-	"sourceSize": {"w":200,"h":200},
+	"sourceSize": {"w":330,"h":330},
 	"pivot": {"x":0.5,"y":0.5}
 },
 "l3.webp":
@@ -137,7 +137,7 @@
 },
 "s.png":
 {
-	"frame": {"x":195,"y":1455,"w":189,"h":190},
+	"frame": {"x":195,"y":1255,"w":189,"h":190},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":5,"y":0,"w":189,"h":190},
@@ -156,9 +156,9 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "symbolsStatic.webp",
+	"image": "symbolsStatic.png",
 	"format": "RGBA8888",
-	"size": {"w":386,"h":1645},
+	"size": {"w":1024,"h":1536},
 	"scale": "1",
 	"smartupdate": "$TexturePacker:SmartUpdate:0ff48a67e4b8c4043f8a36bdb30c4f0d:6b0920109719b2fdd635678740941f98:75cc8653d893635852f340d7770212f2$"
 }

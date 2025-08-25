@@ -26,28 +26,14 @@
 	const SYMBOLS_LEFT = [
 		{ name: 'L1' },
 		{ name: 'L2' },
-		{ name: 'L3' },
-		{ name: 'L4' },
-		{ name: 'L5' },
 	] as const;
 
 	const SYMBOLS_RIGHT = [
-		{ name: 'S' },
-		{ name: 'W', multiplier: 2 },
 		{ name: 'H1' },
 		{ name: 'H3' },
 		{ name: 'H2' },
-		{ name: 'H4' },
 	] as const;
 </script>
-
-<Story name="component">
-	{#snippet template(args)}
-		<StoryPixiApp {assets}>
-			<Symbol {...args} oncomplete={() => console.log('complete')} />
-		</StoryPixiApp>
-	{/snippet}
-</Story>
 
 <Story name="symbols">
 	{#snippet template()}

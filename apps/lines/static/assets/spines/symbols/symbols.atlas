@@ -1,4 +1,4 @@
-symbols.webp
+symbols.png
 size:1032,1032
 filter:Linear,Linear
 scale:0.2
@@ -51,6 +51,30 @@ bounds:652,196,143,111
 offsets:3,13,146,124
 faceglow
 bounds:244,854,245,176
+fish1
+bounds:30, 30, 300, 200
+offsets:30, 30, 150, 100
+fish1_glow
+bounds:30, 30, 300, 200
+offsets:30, 30, 150, 100
+fish1_shadow
+bounds:30, 30, 300, 200
+offsets:30, 30, 150, 100
+fish1_shine
+bounds:30, 30, 300, 200
+offsets:30, 30, 150, 100
+fish2
+bounds:350,30,310,200
+offsets:24,28,170,110
+fish2_glow
+bounds:350,30,310,200
+offsets:16,25,170,110
+fish2_shadow
+bounds:350,30,310,200
+offsets:19,14,170,110
+fish2_shine
+bounds:350,30,310,200
+offsets:24,28,170,110
 heart
 bounds:750,75,119,101
 offsets:21,30,160,160
@@ -58,7 +82,7 @@ rotate:90
 heart_glow
 bounds:499,72,141,121
 offsets:9,18,160,160
-heart_shadow.png
+heart_shadow
 bounds:351,16,46,40
 offsets:17,12,80,68
 heart_shine

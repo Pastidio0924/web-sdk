@@ -135,14 +135,6 @@
 	"trimmed": true,
 	"spriteSourceSize": {"x":162,"y":18,"w":216,"h":135},
 	"sourceSize": {"w":550,"h":171}
-},
-"totalwin.png":
-{
-	"frame": {"x":374,"y":934,"w":195,"h":46},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":46},
-	"sourceSize": {"w":195,"h":46}
 }},
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
