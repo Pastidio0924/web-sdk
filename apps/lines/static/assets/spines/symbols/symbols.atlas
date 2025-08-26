@@ -29,7 +29,7 @@ diamond_shine
 bounds:923,607,91,109
 offsets:35,26,160,160
 dropshadow
-bounds:787,7,66,65
+bounds:652,198,80,65
 offsets:7,7,80,80
 rotate:90
 eye_pupil_l
@@ -52,29 +52,35 @@ offsets:3,13,146,124
 faceglow
 bounds:244,854,245,176
 fish1
-bounds:30, 30, 300, 200
-offsets:30, 30, 150, 100
+bounds:652,198,80,65
+offsets:7,7,80,80
 fish1_glow
-bounds:30, 30, 300, 200
-offsets:30, 30, 150, 100
+bounds:652,198,80,65
+offsets:7,7,80,80
 fish1_shadow
 bounds:30, 30, 300, 200
 offsets:30, 30, 150, 100
 fish1_shine
-bounds:30, 30, 300, 200
-offsets:30, 30, 150, 100
+bounds:652,198,80,65
+offsets:7,7,80,80
 fish2
-bounds:350,30,310,200
-offsets:24,28,170,110
+bounds:652,198,80,65
+offsets:7,7,80,80
 fish2_glow
-bounds:350,30,310,200
-offsets:16,25,170,110
+bounds:652,198,80,65
+offsets:7,7,80,80
 fish2_shadow
 bounds:350,30,310,200
 offsets:19,14,170,110
 fish2_shine
-bounds:350,30,310,200
-offsets:24,28,170,110
+bounds:652,198,80,65
+offsets:7,7,80,80
+s1_coin
+bounds:690,220,330,200
+offsets:20,20,150,100
+s1_hammer
+bounds:690,220,330,200
+offsets:20,20,150,100
 heart
 bounds:750,75,119,101
 offsets:21,30,160,160
@@ -106,8 +112,8 @@ bounds:933,718,19,17
 nugget3
 bounds:193,532,15,14
 radial
-bounds:952,33,72,72
-offsets:4,4,80,80
+bounds:690,330,330,330
+offsets:20,20,150,100
 rays1
 bounds:642,2,70,72
 offsets:21,24,120,120
@@ -131,7 +137,7 @@ spade_shine
 bounds:913,207,113,113
 offsets:24,28,160,160
 t1_coin
-bounds:2,179,182,182
+bounds:652,198,80,65
 t1_glow
 bounds:2,790,240,240
 t1_particles
@@ -151,23 +157,25 @@ t2_cart_wheels_shine
 bounds:931,509,96,58
 rotate:90
 t2_coin
-bounds:193,345,168,167
+bounds:20,440,330,200
+offsets:20,20,150,100
 t2_glow
-bounds:2,363,189,183
-offsets:1,1,191,185
+bounds:20,440,330,200
+offsets:20,20,150,100
 t3_bg
 bounds:496,448,151,151
 t3_coin
-bounds:186,175,168,168
+bounds:360,440,330,200
+offsets:20,20,150,100
 t3_glow
 bounds:491,860,198,170
 offsets:2,2,203,173
 t3_hammer
-bounds:691,870,184,160
-offsets:0,1,185,162
+bounds:652,198,80,65
+offsets:7,7,80,80
 t3_hammer_shine
-bounds:244,514,181,155
-offsets:0,2,185,162
+bounds:652,198,80,65
+offsets:7,7,80,80
 t4_bg
 bounds:499,195,151,151
 t4_coin
