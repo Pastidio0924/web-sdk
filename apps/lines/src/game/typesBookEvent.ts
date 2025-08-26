@@ -56,6 +56,35 @@ type BookEventWinInfo = {
 	index: number;
 	type: 'winInfo';
 	totalWin: number;
+	board: RawSymbol[][];
+	paddingPositions: number[];
+	anticipation: number[];
+	gameType: GameType;
+	wins: {
+		symbol: SymbolName;
+		kind: number;
+		win: number;
+		positions: Position[];
+		meta: {
+			lineIndex: number;
+			multiplier: number;
+			winWithoutMult: number;
+			globalMult: number;
+			lineMultiplier: number;
+		};
+	}[];
+};
+
+type BookEventWinCap = {
+	index: number;
+	type: 'wincap';
+	totalWin: number;
+	board: RawSymbol[][];
+	paddingPositions: number[];
+	anticipation: number[];
+	gameType: GameType;
+	winLevel: number;
+	amount: number;
 	wins: {
 		symbol: SymbolName;
 		kind: number;
@@ -81,6 +110,7 @@ type BookEventCreateBonusSnapshot = {
 export type BookEvent =
 	| BookEventReveal
 	| BookEventWinInfo
+	| BookEventWinCap
 	| BookEventSetTotalWin
 	| BookEventFreeSpinTrigger
 	| BookEventUpdateFreeSpin

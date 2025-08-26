@@ -60,10 +60,44 @@ export const bookEventHandlerMap: BookEventHandlerMap<BookEvent, BookEventContex
 		eventEmitter.broadcast({ type: 'soundScatterCounterClear' });
 	},
 	winInfo: async (bookEvent: BookEventOfType<'winInfo'>) => {
+		if (bookEvent.board) {
+			await stateGameDerived.enhancedBoard.spin({
+				revealEvent: bookEvent,
+				paddingBoard: config.paddingReels[bookEvent.gameType],
+			});
+		}
+
 		eventEmitter.broadcast({ type: 'soundOnce', name: 'sfx_winlevel_small' });
 		await sequence(bookEvent.wins, async (win) => {
 			await animateSymbols({ positions: win.positions });
 		});
+	},
+	wincap: async (bookEvent: BookEventOfType<'wincap'>) => {
+		if (bookEvent.board) {
+			await stateGameDerived.enhancedBoard.spin({
+				revealEvent: bookEvent,
+				paddingBoard: config.paddingReels[bookEvent.gameType],
+			});
+		}
+
+		eventEmitter.broadcast({ type: 'soundOnce', name: 'sfx_winlevel_small' });
+		await sequence(bookEvent.wins, async (win) => {
+			await animateSymbols({ positions: win.positions });
+		});
+
+		const winLevelData = winLevelMap[bookEvent.winLevel as WinLevel];
+
+		eventEmitter.broadcast({ type: 'winShow' });
+		winLevelSoundsPlay({ winLevelData });
+		await eventEmitter.broadcastAsync({
+			type: 'winUpdate',
+			amount: bookEvent.amount,
+			winLevelData,
+		});
+		winLevelSoundsStop();
+		eventEmitter.broadcast({ type: 'winHide' });
+
+		stateBet.winBookEventAmount = bookEvent.amount;
 	},
 	setTotalWin: async (bookEvent: BookEventOfType<'setTotalWin'>) => {
 		stateBet.winBookEventAmount = bookEvent.amount;
