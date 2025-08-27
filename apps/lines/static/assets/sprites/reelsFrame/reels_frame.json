@@ -2,18 +2,18 @@
 
 "frame_bg.png":
 {
-	"frame": {"x":1,"y":857,"w":937,"h":806},
-	"rotated": true,
+	"frame": {"x":77,"y":1004,"w":873,"h":844},
+	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":69,"y":38,"w":937,"h":806},
+	"spriteSourceSize": {"x":75,"y":38,"w":873,"h":844},
 	"sourceSize": {"w":1080,"h":900}
 },
 "frame_edge.png":
 {
-	"frame": {"x":1,"y":1,"w":981,"h":854},
+	"frame": {"x":1,"y":1,"w":1040,"h":942},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":45,"y":20,"w":981,"h":854},
+	"spriteSourceSize": {"x":1,"y":5,"w":1040,"h":942},
 	"sourceSize": {"w":1080,"h":900}
 },
 "frame_fade.png":
