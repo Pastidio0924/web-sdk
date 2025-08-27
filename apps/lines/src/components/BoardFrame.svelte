@@ -66,7 +66,7 @@
 	key="frame_bg.png"
 	anchor={0.5}
 	x={context.stateGameDerived.boardLayout().x * POSITION_ADJUSTMENT}
-	y={context.stateGameDerived.boardLayout().y * POSITION_ADJUSTMENT - 20}
+	y={context.stateGameDerived.boardLayout().y * POSITION_ADJUSTMENT}
 	width={context.stateGameDerived.boardLayout().width * SPRITE_SCALE.width * 1.1}
 	height={context.stateGameDerived.boardLayout().width * SPRITE_SCALE.height * 1.8}
 />
@@ -75,7 +75,7 @@
 	key="frame_edge.png"
 	anchor={0.5}
 	x={context.stateGameDerived.boardLayout().x * POSITION_ADJUSTMENT}
-	y={context.stateGameDerived.boardLayout().y * POSITION_ADJUSTMENT - 20}
+	y={context.stateGameDerived.boardLayout().y * POSITION_ADJUSTMENT}
 	width={context.stateGameDerived.boardLayout().width * SPRITE_SCALE.width * 1.1}
 	height={context.stateGameDerived.boardLayout().width * SPRITE_SCALE.height * 1.8}
 />
