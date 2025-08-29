@@ -30,9 +30,9 @@
 		<UiSprite
 			{...center}
 			anchor={0.5}
-			width={buttonProps.sizes.width}
-			height={buttonProps.sizes.height}
-			backgroundColor={variant === 'dark' ? 0x000000 : 0xffffff}
+			width={buttonProps.sizes.width * 2}
+			height={buttonProps.sizes.height * 0.9}
+			backgroundColor={variant === 'dark' ? 0x000080 : 0xffffff}
 			{...buttonProps.disabled
 				? {
 						backgroundColor: 0xaaaaaa,
@@ -54,10 +54,10 @@
 				align: 'center',
 				wordWrap: true,
 				wordWrapWidth: 200,
-				fontFamily: 'proxima-nova',
+				fontFamily: 'Montserrat',
 				fontWeight: '600',
 				fontSize: UI_BASE_FONT_SIZE * 0.9,
-				fill: variant === 'dark' ? 0xffffff : 0x000000,
+				fill: variant === 'dark' ? 0xffff00 : 0x000000,
 			}}
 		/>
 

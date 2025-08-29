@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { Container } from 'pixi-svelte';
 
 	import { getContextLayout } from 'utils-layout';
 	import { EnableSpaceHold } from 'components-shared';
@@ -57,7 +58,7 @@
 		{/snippet}
 
 		{#snippet amountBalance(labelProps)}
-			<LabelBalance {...labelProps} />
+			<!--<LabelBalance {...labelProps} />-->
 		{/snippet}
 
 		{#snippet amountWin(labelProps)}
@@ -65,35 +66,39 @@
 		{/snippet}
 
 		{#snippet amountBet(labelProps)}
-			<LabelBet {...labelProps} />
+			<!--<LabelBet {...labelProps} />-->
 		{/snippet}
 
 		{#snippet buttonBuyBonus(buttonProps)}
-			<ButtonBuyBonus {...buttonProps} />
+			<!--<ButtonBuyBonus {...buttonProps} />-->
 		{/snippet}
 
 		{#snippet buttonBet(buttonProps)}
-			<ButtonBet {...buttonProps} />
+			<!--<ButtonBet {...buttonProps} />-->
 		{/snippet}
 
 		{#snippet buttonTurbo(buttonProps)}
-			<ButtonTurbo {...buttonProps} />
+			<Container x={200} y={-97}>
+        <ButtonTurbo {...buttonProps} />
+    	</Container>
 		{/snippet}
 
 		{#snippet buttonAutoSpin(buttonProps)}
-			<ButtonAutoSpin {...buttonProps} />
+			<!--<ButtonAutoSpin {...buttonProps} />-->
 		{/snippet}
 
 		{#snippet buttonIncrease(buttonProps)}
-			<ButtonIncrease {...buttonProps} />
+			<!--<ButtonIncrease {...buttonProps} />-->
 		{/snippet}
 
 		{#snippet buttonDecrease(buttonProps)}
-			<ButtonDecrease {...buttonProps} />
+			<!--<ButtonDecrease {...buttonProps} />-->
 		{/snippet}
 
 		{#snippet buttonMenu(buttonProps)}
-			<ButtonMenu {...buttonProps} />
+			<Container x={450} y={-97}>
+				<ButtonMenu {...buttonProps} />
+			</Container>
 		{/snippet}
 
 		{#snippet buttonMenuClose(buttonProps)}
